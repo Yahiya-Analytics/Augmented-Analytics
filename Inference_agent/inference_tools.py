@@ -1,5 +1,5 @@
 import pandas as pd
-from langchain_core.tools import StructuredTool
+from langchain.tools import StructuredTool
 
 class InferenceToolSet:
     """A class that holds a DataFrame and exposes statistical methods as tools."""

@@ -1,9 +1,9 @@
 pandas
 python-dotenv
 plotly
-langchain
-langchain-core
-langchain-google-genai
-langchain-community
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-google-genai==1.0.3
+langchain-community==0.0.38
 numpy
 streamlit

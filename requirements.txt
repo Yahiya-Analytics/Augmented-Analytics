@@ -2,5 +2,8 @@ pandas
 python-dotenv
 plotly
 langchain
+langchain-core
 langchain-google-genai
+langchain-community
 numpy
+streamlit

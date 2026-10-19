@@ -32,11 +32,8 @@ def create_analyzer_chain():
 
         ### 4. Actionable Business Insights
         - Based on all the information, provide 1-2 concrete insights that a business could act on. For example, "The significant salary outlier could represent a high-value client or a senior employee, warranting further investigation." or "The dominance of 'New York' in the city data suggests this is a key market."
-
-        Generate the report based on the provided JSON data.
-        """
-    )
-    
+Generate the report based on the provided JSON data.
+        """)
     parser = StrOutputParser()
     chain = prompt | llm | parser
     print(" Analyzer Agent (Chain) created successfully.")

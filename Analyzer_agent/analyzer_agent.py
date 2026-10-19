@@ -37,10 +37,7 @@ def create_analyzer_chain():
         """
     )
     
-    parser = StrOutputParser()
-    
-    # A "chain" simply connects the components in sequence.
-    chain = prompt | llm | parser
-    
-    print("✅ Analyzer Agent (Chain) created successfully.")
+    parser = StrOutputParser()
+    chain = prompt | llm | parser
+    print(" Analyzer Agent (Chain) created successfully.")
     return chain
